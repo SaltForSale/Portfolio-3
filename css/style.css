@@ -1,0 +1,8 @@
+.start-bg{
+	background-image: url("/assets/night-city.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: 50% 0;
+    background-size:cover;
+
+}
