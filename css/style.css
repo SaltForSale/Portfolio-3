@@ -3,12 +3,42 @@
 }
 
 .start-bg {
-    background-image: url("/assets/night-city.png");
+    background-image: url("/assets/night-city-filler.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 0;
     background-size: cover;
     z-index: 5;
+    background: red;
+    padding-top: 50px;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    transition: background-color 0.5s ease;
+}
+.start-bg-day {
+    background-image: url("/assets/day-city-filler.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-size: cover;
+    z-index: 5;
+    background: cyan;
+    padding-top: 50px;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    transition: background-color 0.5s ease;
+}
+
+.about-bg {
+    background-image: url("/assets/about-bg-filler.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-size: cover;
+    z-index: 5;
+    background: red;
 }
 
 .nav-item {
@@ -57,13 +87,6 @@
 }
 
 /*Kevin Quach's Persona 5 Menu Effect*/
-body {
-    background: red;
-    padding-top: 50px;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-}
 
 hr {
     opacity: 0;
