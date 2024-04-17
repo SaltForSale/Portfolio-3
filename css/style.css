@@ -3,27 +3,28 @@
 }
 
 .start-bg {
-    background-image: url("/assets/night-city-filler.png");
+    background-image: url('/assets/night-city-filler.png') !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 0;
     background-size: cover;
     z-index: 5;
-    background: red;
+    background: #ba0001;
     padding-top: 50px;
     height: 100vh;
     margin: 0;
     overflow: hidden;
     transition: background-color 0.5s ease;
 }
+
 .start-bg-day {
-    background-image: url("/assets/day-city-filler.png");
+    background-image: url('/assets/day-city-filler.png') !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 0;
-    background-size: cover;
+    background-size: cover !important;
     z-index: 5;
-    background: cyan;
+    background: #0EB1F4;
     padding-top: 50px;
     height: 100vh;
     margin: 0;
@@ -32,14 +33,15 @@
 }
 
 .about-bg {
-    background-image: url("/assets/about-bg-filler.png");
+    background-image: url("/assets/about-bg-filler.png") !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 0;
     background-size: cover;
     z-index: 5;
-    background: red;
+    background: #ba0001;
 }
+
 
 .nav-item {
     font-size: 100px;
@@ -86,6 +88,12 @@
     top: 100px;
 }
 
+.portrait{
+    position:absolute;
+    height:271px;
+    width:238px;
+    top:100px;
+}
 /*Kevin Quach's Persona 5 Menu Effect*/
 
 hr {
@@ -180,6 +188,7 @@ hr {
         }
     }
 }
+
 .link-wrapper {
     position: relative;
     display: inline-block;
