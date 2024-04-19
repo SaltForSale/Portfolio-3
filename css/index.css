@@ -32,17 +32,6 @@
     transition: background-color 0.5s ease;
 }
 
-.about-bg {
-    background-image: url("/assets/about-bg-filler.png") !important;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 0;
-    background-size: cover;
-    z-index: 5;
-    background: #ba0001;
-}
-
-
 .nav-item {
     font-size: 100px;
     position: absolute;
@@ -88,12 +77,34 @@
     top: 100px;
 }
 
-.portrait{
-    position:absolute;
-    height:271px;
-    width:238px;
-    top:100px;
+.portrait {
+    position: absolute;
+    height: 406px;
+    width: 357px;
+    top: 250px;
+    left: 1500px;
+    transform: rotate(5deg);
 }
+
+.name-text {
+    position: absolute;
+    top: 50px;
+    left: 1025px;
+    transform: rotate(5deg);
+}
+
+.big-text {
+    height: 450px !important;
+    width: 850px !important;
+    border-color: white;
+    border-width: 10px !important;
+    transform: rotate(-2deg);
+    position: absolute;
+    top: 200px;
+    left: 575px;
+    z-index: -1;
+}
+
 /*Kevin Quach's Persona 5 Menu Effect*/
 
 hr {
