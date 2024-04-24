@@ -58,8 +58,8 @@
     position: absolute;
     top: 50px;
     left: 970px;
-    height:206px;
-    width:428px;
+    height: 206px;
+    width: 428px;
     transform: rotate(5deg);
 }
 
@@ -74,25 +74,27 @@
     left: 575px;
     z-index: -1;
     padding: 20px;
-    
+
 }
-.img1{
-    height:350px;
-    width:350px;
-    position:absolute;
-    top:500px;
-    left:1200px;
+
+.img1 {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 500px;
+    left: 1200px;
     transform: rotate(5deg);
-    z-index:-2;
+    z-index: -2;
 }
-.img2{
-    height:350px;
-    width:350px;
-    position:absolute;
-    top:500px;
-    left:700px;
+
+.img2 {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 500px;
+    left: 700px;
     transform: rotate(-5deg);
-    z-index:-2;
+    z-index: -2;
 }
 
 /* Google Fonts*/

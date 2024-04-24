@@ -1,0 +1,135 @@
+.about-bg {
+    background-image: url("/assets/about-bg-filler.png") !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-size: cover;
+    z-index: 5;
+    background: #ba0001;
+}
+
+.nav-item {
+    font-size: 100px;
+    position: absolute;
+    top: 125px;
+    left: 1600px;
+    transform: rotate(-5deg);
+}
+
+.nav-item1 {
+    font-size: 100px;
+    position: absolute;
+    top: 300px;
+    left: 1500px;
+    -webkit-text-stroke: 5px black;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.nav-item2 {
+    font-size: 100px;
+    position: absolute;
+    top: 475px;
+    left: 1350px;
+    -webkit-text-stroke: 5px black;
+    -webkit-font-smoothing: subpixel-antialiased;
+    transform: rotate(5deg);
+}
+
+.nav-item3 {
+    font-size: 100px;
+    position: absolute;
+    top: 650px;
+    left: 1175px;
+    -webkit-text-stroke: 5px black;
+    -webkit-font-smoothing: subpixel-antialiased;
+    transform: rotate(5deg);
+}
+
+.name-box {
+    position: absolute;
+    top: 50px;
+    left: 1450px;
+    height: 206px;
+    width: 428px;
+    transform: rotate(5deg);
+}
+
+.name-text {
+    position: absolute;
+    top: 95px;
+    left: 1475px;
+    height: 206px;
+    width: 428px;
+    transform: rotate(10deg);
+    color: white;
+}
+
+.big-text {
+    height: 400px !important;
+    width: 750px !important;
+    border-color: white;
+    border-width: 15px !important;
+    transform: rotate(-2deg);
+    position: absolute;
+    top: 210px;
+    left: 1050px;
+    z-index: -1;
+    padding: 20px;
+}
+
+.small-text{
+    height: 100px !important;
+    width: 500px !important;
+    border-color: white;
+    border-width: 10px !important;
+    position: absolute;
+    top: 575px;
+    left: 1320px;
+    z-index: -1;
+    padding: 20px;
+}
+
+.ss1 {
+    position: absolute;
+    width: 576px;
+    height: 324px;
+    top: 75px;
+    left: 500px;
+    z-index: -1;
+    transform: rotate(-1deg);
+}
+
+.ss2 {
+    position: absolute;
+    width: 576px;
+    height: 324px;
+    top: 500px;
+    left: 600px;
+    z-index: -1;
+    transform: rotate(4deg);
+}
+
+/* Google Fonts*/
+.arsenal-regular {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.arsenal-bold {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.arsenal-regular-italic {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.arsenal-bold-italic {
+    font-family: "Arsenal", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
