@@ -1,0 +1,74 @@
+{
+    "images": [
+        {
+            "imgPath1": "assets/projectSS/phaseTw0-1.png",
+            "imgPath2": "assets/projectSS/phaseTw0-2.png",
+            "imgName": "Phase Tw0",
+            "description": "Sad Sitting",
+            "link": "https://saltforsale.github.io/Lee-P2/"
+        },
+        {
+            "imgPath": "img/extras/Untitled-2.png",
+            "imgPath2": "assets/projectSS/phaseTw0-2.png",
+            "imgName": "St. John",
+            "description": "Long Stare",
+            "link": "09/03/2022"
+        },
+        {
+            "imgPath": "img/extras/Untitled-3.png",
+            "imgPath2": "assets/projectSS/phaseTw0-2.png",
+            "imgName": "St. John",
+            "description": "AJ and I",
+            "link": "09/03/2022"
+        },
+        {
+            "imgPath": "img/extras/Untitled-4.png",
+            "imgPath2": "assets/projectSS/phaseTw0-2.png",
+            "imgName": "Kauai, Hawaii",
+            "description": "Anime Walking :|",
+            "link": "04/21/2022"
+        },
+        {
+            "imgPath": "img/extras/Untitled-5.png",
+            "imgPath2": "assets/projectSS/phaseTw0-2.png",
+            "imgName": "Kauai, Hawaii",
+            "description": "Wave Crash",
+            "date": "04/21/2022"
+        },
+        {
+            "imgPath": "img/extras/Untitled-6.png",
+            "imgPath2": "assets/projectSS/phaseTw0-2.png",
+            "imgName": "Kauai, Hawaii",
+            "description": "No Swimming",
+            "link": "04/19/2022"
+        },
+        {
+            "imgPath": "img/extras/Untitled-7.png",
+            "imgPath2": "assets/projectSS/phaseTw0-2.png",
+            "imgName": "Kauai, Hawaii",
+            "description": "Holy",
+            "link": "04/20/2022"
+        },
+        {
+            "imgPath": "img/extras/Untitled-8.png",
+            "imgPath2": "assets/projectSS/phaseTw0-2.png",
+            "imgName": "Kauai, Hawaii",
+            "description": "Breath of the Wild",
+            "link": "04/20/2022"
+        },
+        {
+            "imgPath": "img/extras/Untitled-9.png",
+            "imgPath2": "assets/projectSS/phaseTw0-2.png",
+            "imgName": "Kauai, Hawaii",
+            "description": "Pigeon Chest",
+            "link": "04/20/2022"
+        },
+        {
+            "imgPath": "img/extras/Untitled-10.png",
+            "imgPath2": "assets/projectSS/phaseTw0-2.png",
+            "imgName": "Kauai, Hawaii",
+            "description": "Looking Back",
+            "link": "04/09/2016"
+        }
+  ]
+}

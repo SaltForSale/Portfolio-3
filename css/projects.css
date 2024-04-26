@@ -56,11 +56,11 @@
 
 .name-text {
     position: absolute;
-    top: 95px;
+    top: 100px;
     left: 1475px;
     height: 206px;
     width: 428px;
-    transform: rotate(10deg);
+    transform: rotate(11deg);
     color: white;
 }
 
@@ -107,6 +107,21 @@
     left: 600px;
     z-index: -1;
     transform: rotate(4deg);
+}
+
+.caro-button1{
+    position:absolute;
+    left:1600px;
+    top:750px;
+    cursor: pointer;
+    
+}
+
+.caro-button2{
+    position:absolute;
+    left:1400px;
+    top:750px;
+    cursor: pointer;
 }
 
 /* Google Fonts*/
