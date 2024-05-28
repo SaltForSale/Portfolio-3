@@ -3,11 +3,11 @@
 }
 
 .start-bg {
-    background-image: url('/assets/night-city-filler.png') !important;
+    background-image: url('/assets/Night.jpg') !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 0;
-    background-size: cover;
+    background-size: cover !important;
     z-index: 5;
     background: #ba0001;
     padding-top: 50px;
@@ -18,7 +18,7 @@
 }
 
 .start-bg-day {
-    background-image: url('/assets/day-city-filler.png') !important;
+    background-image: url('/assets/Day.jpg') !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 0;
@@ -63,7 +63,7 @@
     font-size: 100px;
     position: absolute;
     top: 650px;
-    left: 1175px;
+    left: 1200px;
     -webkit-text-stroke: 5px black;
     -webkit-font-smoothing: subpixel-antialiased;
     transform: rotate(5deg);
