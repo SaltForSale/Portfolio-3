@@ -1,64 +1,64 @@
 {
     "images": [
         {
-            "imgPath": "assets/projectSS/phaseTw0-1.png",
-            "imgLocation": "St. John",
-            "description": "Sad Sitting",
-            "date": "09/03/2022"
+            "imgPath": "assets/projectSS/ajaxCarousel.png",
+            "imgLocation": "AJAX Carousel",
+            "description": "Insert Description Here",
+            "date": "https://saltforsale.github.io/Lee-P2/"
         },
         {
-            "imgPath": "assets/projectSS/phaseTw0-2.png",
-            "imgLocation": "St. John",
-            "description": "Long Stare",
-            "date": "09/03/2022"
+            "imgPath": "assets/projectSS/annabelle.png",
+            "imgLocation": "Annabelle",
+            "description": "Insert Description Here",
+            "date": "https://saltforsale.github.io/Annabelle-Project/"
         },
         {
-            "imgPath": "assets/projectSS/phaseTw0-1.png",
-            "imgLocation": "St. John",
-            "description": "AJ and I",
-            "date": "09/03/2022"
+            "imgPath": "assets/projectSS/cssGhost.png",
+            "imgLocation": "CSS Ghost",
+            "description": "Insert Description Here",
+            "date": "https://saltforsale.github.io/ghost-resized/"
         },
         {
-            "imgPath": "assets/projectSS/phaseTw0-2.png",
-            "imgLocation": "Kauai, Hawaii",
-            "description": "Anime Walking :|",
-            "date": "04/21/2022"
+            "imgPath": "assets/projectSS/hero.png",
+            "imgLocation": "Jack Kirby",
+            "description": "Insert Description Here",
+            "date": "https://saltforsale.github.io/Hero-Project/"
         },
         {
-            "imgPath": "assets/projectSS/phaseTw0-1.png",
-            "imgLocation": "Kauai, Hawaii",
-            "description": "Wave Crash",
-            "date": "04/21/2022"
+            "imgPath": "assets/projectSS/jsCalculator.png",
+            "imgLocation": "JS Calculator",
+            "description": "Insert Description Here",
+            "date": "https://saltforsale.github.io/JS-Calculator/"
         },
         {
-            "imgPath": "assets/projectSS/phaseTw0-2.png",
-            "imgLocation": "Kauai, Hawaii",
-            "description": "No Swimming",
-            "date": "04/19/2022"
+            "imgPath": "assets/projectSS/phaseTw0.png",
+            "imgLocation": "Phase Tw0",
+            "description": "Insert Description Here",
+            "date": "https://saltforsale.github.io/Phase-Tw0/"
         },
         {
-            "imgPath": "assets/projectSS/phaseTw0-1.png",
-            "imgLocation": "Kauai, Hawaii",
-            "description": "Holy",
-            "date": "04/20/2022"
+            "imgPath": "assets/projectSS/portfolio2.png",
+            "imgLocation": "Junior Portfolio",
+            "description": "Insert Description Here",
+            "date": "https://saltforsale.github.io/Portfolio-2/"
         },
         {
-            "imgPath": "assets/projectSS/phaseTw0-2.png",
-            "imgLocation": "Kauai, Hawaii",
-            "description": "Breath of the Wild",
-            "date": "04/20/2022"
+            "imgPath": "assets/projectSS/rpsGame.png",
+            "imgLocation": "RPS JS Game",
+            "description": "Insert Description Here",
+            "date": "https://saltforsale.github.io/RPS-JS-Project/"
         },
         {
-            "imgPath": "assets/projectSS/phaseTw0-1.png",
-            "imgLocation": "Kauai, Hawaii",
-            "description": "Pigeon Chest",
-            "date": "04/20/2022"
+            "imgPath": "assets/projectSS/colors.png",
+            "imgLocation": "Colors Parallax",
+            "description": "Insert Description Here",
+            "date": "https://saltforsale.github.io/Colors-Project/"
         },
         {
-            "imgPath": "assets/projectSS/phaseTw0-2.png",
-            "imgLocation": "Kauai, Hawaii",
-            "description": "Looking Back",
-            "date": "04/09/2016"
+            "imgPath": "assets/projectSS/vueMovies.png",
+            "imgLocation": "Vue Movies",
+            "description": "Insert Description Here",
+            "date": "https://saltforsale.github.io/NJIT-3_StarterFiles/"
         }
   ]
 }
