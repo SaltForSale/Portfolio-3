@@ -85,6 +85,8 @@
     left: 1200px;
     transform: rotate(5deg);
     z-index: -2;
+    border-color: white;
+    border-width: 5px !important;
 }
 
 .img2 {
@@ -95,6 +97,8 @@
     left: 700px;
     transform: rotate(-5deg);
     z-index: -2;
+    border-color: white;
+    border-width: 5px !important;
 }
 
 /* Google Fonts*/

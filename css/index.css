@@ -115,6 +115,7 @@ hr {
     text-align: center;
     margin-top: 18px;
 }
+/*index*/
 
 .link-wrapper {
     position: relative;
@@ -199,6 +200,7 @@ hr {
         }
     }
 }
+/*about*/
 
 .link-wrapper {
     position: relative;
@@ -269,6 +271,208 @@ hr {
         display: block;
         top: 255px;
         left: 1350px;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 999;
+
+        &.normal {
+            display: block;
+        }
+
+        &.active {
+            display: none;
+            z-index: -1;
+        }
+    }
+}
+
+.shape-wrapper {
+    filter: sepia(50%) saturate(3);
+
+    .shape {
+        transition: all .1s linear;
+        position: absolute;
+        top: -210px;
+        left: 1650px;
+        right: 0;
+        height: 35px;
+        overflow: hidden;
+
+        svg {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        &.cyan-fill {
+            mix-blend-mode: screen;
+            animation-delay: 0.05s;
+            animation-duration: .4s;
+        }
+
+        &.red-fill {
+            animation-duration: .45s;
+            animation-delay: 0.08s;
+            opacity: .8;
+        }
+    }
+}
+/*projects*/
+
+.link-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 0px 16px;
+
+    .fallback {
+        font-size: 2.25em;
+        letter-spacing: 4px;
+        line-height: 0;
+        opacity: 0;
+        position: relative;
+        top: 15px;
+        left: 0;
+    }
+
+    .shape-wrapper {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    &:hover {
+        z-index: 9999;
+
+        .shape-wrapper {
+            transform: rotate(-6deg);
+            display: block;
+
+            .shape.cyan-fill {
+                transform: scale(3, .1);
+            }
+        }
+
+        .img-wrapper2 {
+            img {
+                animation: tiltBounce .15s ease;
+                animation-fill-mode: forwards;
+                display: block;
+
+                &.normal {
+                    mix-blend-mode: darken;
+                }
+            }
+        }
+    }
+
+    &:nth-child(even) {
+        &:hover {
+            .shape-wrapper {
+                transform: rotate(11deg)
+            }
+
+            .img-wrapper img {
+                animation: tiltBounceAlt .15s ease;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+}
+
+.img-wrapper2 {
+    img {
+        width: auto;
+        height: 100px;
+        display: block;
+        top: 450px;
+        left: 1020px;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 999;
+
+        &.normal {
+            display: block;
+        }
+
+        &.active {
+            display: none;
+            z-index: -1;
+        }
+    }
+}
+
+/*credits*/
+.link-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 0px 16px;
+
+    .fallback {
+        font-size: 2.25em;
+        letter-spacing: 4px;
+        line-height: 0;
+        opacity: 0;
+        position: relative;
+        top: 15px;
+        left: 0;
+    }
+
+    .shape-wrapper {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    &:hover {
+        z-index: 9999;
+
+        .shape-wrapper {
+            transform: rotate(-6deg);
+            display: block;
+
+            .shape.cyan-fill {
+                transform: scale(3, .1);
+            }
+        }
+
+        .img-wrapper3 {
+            img {
+                animation: tiltBounce .15s ease;
+                animation-fill-mode: forwards;
+                display: block;
+
+                &.normal {
+                    mix-blend-mode: darken;
+                }
+            }
+        }
+    }
+
+    &:nth-child(even) {
+        &:hover {
+            .shape-wrapper {
+                transform: rotate(11deg)
+            }
+
+            .img-wrapper1 img {
+                animation: tiltBounceAlt .15s ease;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+}
+
+.img-wrapper3 {
+    img {
+        width: auto;
+        height: 100px;
+        display: block;
+        top: 610px;
+        left: 700px;
         margin: 0 auto;
         position: absolute;
         z-index: 999;
