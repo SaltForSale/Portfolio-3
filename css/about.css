@@ -126,8 +126,7 @@
     font-style: italic;
 }
 
-/*Kevin Quach's Persona 5 Menu Effect*/
-
+/*kevin quach*/
 hr {
     opacity: 0;
 }
@@ -136,6 +135,7 @@ hr {
     text-align: center;
     margin-top: 18px;
 }
+/*index*/
 
 .link-wrapper {
     position: relative;
@@ -204,8 +204,8 @@ hr {
         width: auto;
         height: 100px;
         display: block;
-        top: 85px;
-        left: 1580px;
+        top: 75px;
+        left: 0px;
         margin: 0 auto;
         position: absolute;
         z-index: 999;
@@ -220,6 +220,7 @@ hr {
         }
     }
 }
+/*about*/
 
 .link-wrapper {
     position: relative;
@@ -275,7 +276,7 @@ hr {
                 transform: rotate(11deg)
             }
 
-            .img-wrapper1 img {
+            .img-wrapper img {
                 animation: tiltBounceAlt .15s ease;
                 animation-fill-mode: forwards;
             }
@@ -288,8 +289,178 @@ hr {
         width: auto;
         height: 100px;
         display: block;
-        top: 255px;
-        left: 1350px;
+        top: 250px;
+        left: -100px;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 999;
+
+        &.normal {
+            display: block;
+        }
+
+        &.active {
+            display: none;
+            z-index: -1;
+        }
+    }
+}
+/*projects*/
+
+.link-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 0px 16px;
+
+    .fallback {
+        font-size: 2.25em;
+        letter-spacing: 4px;
+        line-height: 0;
+        opacity: 0;
+        position: relative;
+        top: 15px;
+        left: 0;
+    }
+
+    .shape-wrapper {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    &:hover {
+        z-index: 9999;
+
+        .shape-wrapper {
+            transform: rotate(-6deg);
+            display: block;
+
+            .shape.cyan-fill {
+                transform: scale(3, .1);
+            }
+        }
+
+        .img-wrapper2 {
+            img {
+                animation: tiltBounce .15s ease;
+                animation-fill-mode: forwards;
+                display: block;
+
+                &.normal {
+                    mix-blend-mode: darken;
+                }
+            }
+        }
+    }
+
+    &:nth-child(even) {
+        &:hover {
+            .shape-wrapper {
+                transform: rotate(11deg)
+            }
+
+            .img-wrapper img {
+                animation: tiltBounceAlt .15s ease;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+}
+
+.img-wrapper2 {
+    img {
+        width: auto;
+        height: 100px;
+        display: block;
+        top: 475px;
+        left: -225px;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 999;
+
+        &.normal {
+            display: block;
+        }
+
+        &.active {
+            display: none;
+            z-index: -1;
+        }
+    }
+}
+
+/*credits*/
+.link-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 0px 16px;
+
+    .fallback {
+        font-size: 2.25em;
+        letter-spacing: 4px;
+        line-height: 0;
+        opacity: 0;
+        position: relative;
+        top: 15px;
+        left: 0;
+    }
+
+    .shape-wrapper {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    &:hover {
+        z-index: 9999;
+
+        .shape-wrapper {
+            transform: rotate(-6deg);
+            display: block;
+
+            .shape.cyan-fill {
+                transform: scale(3, .1);
+            }
+        }
+
+        .img-wrapper3 {
+            img {
+                animation: tiltBounce .15s ease;
+                animation-fill-mode: forwards;
+                display: block;
+
+                &.normal {
+                    mix-blend-mode: darken;
+                }
+            }
+        }
+    }
+
+    &:nth-child(even) {
+        &:hover {
+            .shape-wrapper {
+                transform: rotate(11deg)
+            }
+
+            .img-wrapper1 img {
+                animation: tiltBounceAlt .15s ease;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+}
+
+.img-wrapper3 {
+    img {
+        width: auto;
+        height: 100px;
+        display: block;
+        top: 675px;
+        left: -400px;
         margin: 0 auto;
         position: absolute;
         z-index: 999;
@@ -311,7 +482,7 @@ hr {
     .shape {
         transition: all .1s linear;
         position: absolute;
-        top: -200px;
+        top: -210px;
         left: 1650px;
         right: 0;
         height: 35px;
