@@ -3,61 +3,61 @@
         {
             "imgPath": "assets/projectSS/ajaxCarousel.png",
             "imgLocation": "AJAX Carousel",
-            "description": "Insert Description Here",
+            "description": "This website is a AJAX tutorial that my whole class did where we got to personalize with our own images.  This website is from my Senior year.",
             "date": "https://saltforsale.github.io/Lee-P2/"
         },
         {
             "imgPath": "assets/projectSS/annabelle.png",
             "imgLocation": "Annabelle",
-            "description": "Insert Description Here",
+            "description": "This is a simple Bootstrap project where my partner, Ryan Chung, and I worked to make a website about the movie, Annabelle.  This website was made in my Junior year.",
             "date": "https://saltforsale.github.io/Annabelle-Project/"
         },
         {
             "imgPath": "assets/projectSS/cssGhost.png",
             "imgLocation": "CSS Ghost",
-            "description": "Insert Description Here",
+            "description": "This is a very simple CSS animation ghost that my class made from a tutorial.  Everyone had their own ghost and got to personalize it how they wanted.  This website was made in my Junior year.",
             "date": "https://saltforsale.github.io/ghost-resized/"
         },
         {
             "imgPath": "assets/projectSS/hero.png",
             "imgLocation": "Jack Kirby",
-            "description": "Insert Description Here",
+            "description": "This website is about the comic artist Jack Kirby.  This website was one of the first times I used Javascript.  This website used Javascript to make an accordion-type gallery selection.  This website was made in my Junior year.",
             "date": "https://saltforsale.github.io/Hero-Project/"
         },
         {
             "imgPath": "assets/projectSS/jsCalculator.png",
             "imgLocation": "JS Calculator",
-            "description": "Insert Description Here",
+            "description": "This is a Javascript Calculator that everyone in my class made to help familiarize themselves with Javascript.  The calculator is fully functioning and was made in my Senior Year.",
             "date": "https://saltforsale.github.io/JS-Calculator/"
         },
         {
             "imgPath": "assets/projectSS/phaseTw0.png",
             "imgLocation": "Phase Tw0",
-            "description": "Insert Description Here",
+            "description": "This is my Work Based Learning Project where I collaborated with the head of the Phase Tw0 organization, Nina Cao, to make a website for them.  This website was made in my Senior year.",
             "date": "https://saltforsale.github.io/Phase-Tw0/"
         },
         {
             "imgPath": "assets/projectSS/portfolio2.png",
             "imgLocation": "Junior Portfolio",
-            "description": "Insert Description Here",
+            "description": "This website is my portfolio from my Junior year of high school.  It used the same ideas but was a single-paged website instead.  As the name suggests, this website was made in my Junior year.",
             "date": "https://saltforsale.github.io/Portfolio-2/"
         },
         {
             "imgPath": "assets/projectSS/rpsGame.png",
             "imgLocation": "RPS JS Game",
-            "description": "Insert Description Here",
+            "description": "This website is a fully functioning Rock, Paper, Scissors game made only with Javascript.  The user plays against a computer while the website tracks the amount of wins and losses the player has.  This website was made in my Junior year.",
             "date": "https://saltforsale.github.io/RPS-JS-Project/"
         },
         {
             "imgPath": "assets/projectSS/colors.png",
             "imgLocation": "Colors Parallax",
-            "description": "Insert Description Here",
+            "description": "This website is a collection of photos taken to depict a wide range of different colors.  This website was one of the last websites made in my Sophomore year.",
             "date": "https://saltforsale.github.io/Colors-Project/"
         },
         {
             "imgPath": "assets/projectSS/vueMovies.png",
             "imgLocation": "Vue Movies",
-            "description": "Insert Description Here",
+            "description": "This website is a tutorial my whole class did to learn Vue.  It is also personalized to have my own top three movies.  THis website was made in my Senior year.",
             "date": "https://saltforsale.github.io/NJIT-3_StarterFiles/"
         }
   ]
